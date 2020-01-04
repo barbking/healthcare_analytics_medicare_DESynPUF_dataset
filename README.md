@@ -4,7 +4,7 @@ Data source: Medicare Claims Synthetic Public Use Files (SynPUFs)<br> https://ww
 
 ![](medicaredata.JPG)
 
--- Final data transformation steps for project to predict outpatients at risk for addmission to hospital for chronic heart failure. This was the most time consuming part of our project, we found out how difficult and challenging dealing with healthcare records can be.
+-- Final data transformation steps for project to predict outpatients at risk for hospital addmission due to chronic heart failure. This was the most time consuming part of our project, we found out how difficult and challenging dealing with healthcare records can be.
 
 1. Removed the columns from the Outpatient and Inpatient datasets that weren't relevant to the project to reduce file size and renamed the columns for easier programming.
 2. Determined which people in the Outpatient file were also admitted to the hospital
@@ -17,6 +17,6 @@ Data source: Medicare Claims Synthetic Public Use Files (SynPUFs)<br> https://ww
 
 -- Dataset very unbalanced, balanced using random under-sampling.
 
--- Teams members tried different classification algorithms.  Results for my LightGBM model shown below.
+-- Team members tried different classification algorithms.  Results for my LightGBM model shown below.
 
 ![](LightGBMSlide.JPG)
