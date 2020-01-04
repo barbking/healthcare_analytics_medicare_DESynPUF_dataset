@@ -1,6 +1,6 @@
 ### Healthcare Analytics Homework and Project
 
-Data source: Medicare Claims Synthetic Public Use Files (SynPUFs) (https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/SynPUFs/index)
+Data source: Medicare Claims Synthetic Public Use Files (SynPUFs)<br> https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/SynPUFs/index
 
 ![](medicaredata.JPG)
 
@@ -13,4 +13,10 @@ Data source: Medicare Claims Synthetic Public Use Files (SynPUFs) (https://www.c
 5. Aggregated the Outpatient file above to achieve following:<br>
 -- Limit each patient to one row of records<br>
 -- Rolled up all Outpatient diagnostic codes to the highest level of ICD9 code categories<br>
-6. Merged gender, race, age, BENE_ESRD_IND and all chronic disease flag data from beneficiary summary data set as predictors.
+6. Joined gender, race, age, BENE_ESRD_IND and all chronic disease flag data from beneficiary summary data set as predictors.
+
+-- Dataset very unbalanced, balanced using random under-sampling.
+
+-- Teams members tried different classification algorithms.  Results for my LightGBM model shown below.
+
+![](LightGBMSlide.JPG)
